@@ -1,0 +1,10 @@
+Machine Learning (ML) Tutorial
+Job Search
+PDF Version
+Quick Guide
+Resources
+Discussion
+This Machine Learning (ML) tutorial will provide a detailed understanding of the concepts of machine learning such as, different types of machine learning algorithms, types, applications, libraries used in ML, and real-life examples.
+
+What is Machine Learning
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that works on algorithm developments and statistical models that allow computers to learn from data and make predictions or decisions without being explicitly programmed.

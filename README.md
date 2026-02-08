@@ -1,6 +1,6 @@
 # Document-Specific Chatbot
 
-A document-based chatbot built with **Streamlit** and **sentence-transformers**.  
+A document-based chatbot built with **Streamlit** and **sentence-transformers**.
 Upload any PDF, DOCX, or TXT file and ask questions interactively.
 
 ## Features
@@ -10,33 +10,42 @@ Upload any PDF, DOCX, or TXT file and ask questions interactively.
 - Embedding-based similarity search for relevant answers.
 - Streamlit frontend with chat history.
 
-## Setup Instructions
+## Quickstart
 
 1. Clone the repository:
 
 ```bash
 git clone <your-repo-url>
-cd Domain_specific_chatbot
+cd Domain_Specific_Chatbot
+```
 
-##  Create and Activate Virtual Environment
+2. Create and activate a virtual environment:
 
+```bash
 # Windows
-python -m venv venv
-venv\Scripts\activate
-
-uv venv --python 3.11.9
+python -m venv .venv
 .venv\Scripts\activate
 
 # Mac/Linux
-python -m venv venv
-source venv/bin/activate
+python -m venv .venv
+source .venv/bin/activate
+```
 
-## Install dependencies
+3. Install dependencies:
+
+```bash
 pip install -r requirements.txt
-uv add -r requirements.txt
+```
 
-## Run the streamlit app
+4. Run the Streamlit app:
+
+```bash
 streamlit run src/app.py
+```
+
+## Data Folder
+
+Sample documents can be placed in the `data/` folder. See `data/README.md` for expectations and guidelines.
 
 ## Observations and Fixes (Project Notes)
 
@@ -80,4 +89,3 @@ streamlit run src/app.py
 **After (normalized text + better chunking + sentence extraction | source: `data/machine_learning.docx`):**
 - Q: "What is supervised learning?"
 - A: "Supervised Learning: Trains models on labeled data to map inputs to known outputs, commonly used for classification and regression."
-
